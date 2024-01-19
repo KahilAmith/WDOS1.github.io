@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife in Sri Lanka|Yala</title>
+    <link rel="icon" href="../Images/2018-animal-planet.jpg.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="../Pages/yalapark.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+
+
+</head>
+
+<body>
+    <nav>
+        <section class="logo">
+            <a href="#"><img src="../Images/logo.svg (2).png" alt="logo" /></a>
+        </section>
+    
+        <section class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </section>
+        
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="intro.html">Introduction</a></li>
+            <li><a href="dwc.html">Conservation</a></li>
+            <li class="dropdown">
+                <a href="#">Parks</a>
+                <ul class="submenu">
+                    <li><a href="Yala.html">Yala</a></li>
+                    <li><a href="Wilpath.html">Wilpaththu</a></li>
+                </ul>
+            </li>
+            <li><a href="Animals.html">Animals</a></li>
+            <li><a href="Leapartd.html">Leopard</a></li>
+        </ul>
+    </nav>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script>
+    $(function(){
+        $(".toggle").on("click", function(){
+            if($(".menu").hasClass("active")){
+              $(".menu").removeClass("active");
+              $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>")
+        } else{
+            $(".menu").addClass("active");
+            $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>")
+        }
+     });
+    });
+  </script>
+
+<section class="headeryala">
+    <h1>Yala National Park</h1>
+    <p>Sri Lanka</p>
+  </section>
+
+  <section class="contentyala">
+    <p>
+        Yala National Park, nestled in the verdant embrace of Sri Lanka, is a sanctuary of untamed beauty and natural marvels. Its sprawling landscapes, adorned with dense forests, shimmering lakes, and golden savannas, harbor a breathtaking sectionersity of wildlife. Home to majestic elephants, elusive leopards, and an array of avian wonders, Yala's allure lies in its ability to captivate with each glimpse of its enchanting inhabitants. This sanctuary not only mesmerizes with its untamed charm but also serves as a testament to the intricate dance of life within its protected realms, inviting all to witness the raw and exquisite splendor of nature.
+    </p>
+</section>
+
+<main>
+    <section class="main-image">
+        <img src="../Images/Female_Great_Hornbill.jpg" alt="Main Image">
+    </section>
+
+    <section class="park-content">
+        <h1>Welcome to Yala National Park</h1>
+
+        <p>
+            Explore the natural wonders of Yala National Park, a biosectionersity hotspot situated in the southeastern
+            region of Sri Lanka. With its sectionerse ecosystems, Yala is home to a wide variety of wildlife, including
+            elephants, leopards, and numerous bird species.
+        </p>
+
+        <p>
+            Immerse yourself in the lush landscapes and discover the unique flora and fauna that call Yala home.
+            Whether you're a nature enthusiast or a wildlife photographer, Yala offers an unforgettable experience
+            for all.
+        </p>
+    </section>
+</main>
+
+  
+
+<section class="footer">
+    <section class="footer-contact">
+        <span>Contact Information:</span>
+        <p>Email: srilankanwildlife@gmail.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </section>
+    <section class="footer-info">
+        <span>Follow Us:</span>
+        <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> Facebook</a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon> Instagram</a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon> Twitter</a></li>
+        </ul>
+    </section>
+</section>
+
+</body>
+</html>
+
